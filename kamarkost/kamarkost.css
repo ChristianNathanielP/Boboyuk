@@ -7,8 +7,6 @@
 
 body {
   font-family: 'Poppins', sans-serif;
-  background-image: url(./image/fabric_1.webp);
-  background-position: center;
 }
 header {
   text-align: center;
@@ -62,9 +60,9 @@ header p {
   background-color: #72AFC1;
   border: none;
   box-shadow: none;
-  width: 500px;
-  border-radius: 20px;
-  padding: 8px 10px;
+  width: 200px;
+  border-radius: 30px;
+  padding: 12px 10px;
   cursor: pointer;
   color: #ffff;
   font-weight: 600;
@@ -92,7 +90,8 @@ header p {
 }
 .deskripsi {
   display: flex;
-  justify-content: space-between;
+  gap: 300px;
+  margin-left: 10px;
 }
 .deskripsi h3, .deskripsi-pemilik h3 {
   font-weight: 500;
@@ -106,10 +105,16 @@ header p {
 }
 
 .deskripsi-pemilik {
-  margin: 15px 0;
+  margin: 15px 12px 0 0;
+  padding: 10px;
+  border-radius: 15px;
+  box-shadow: -2px 3px 20px -3px rgba(0,0,0,0.59);
+  -webkit-box-shadow: -2px 3px 20px -3px rgba(0,0,0,0.59);
+  -moz-box-shadow: -2px 3px 20px -3px rgba(0,0,0,0.59);
 }
-
-
+.deskripsi-pemilik h3 {
+  text-align: center;
+}
 .footer {
   background-color: #0A082D;
   padding: 30px 0;
@@ -140,9 +145,9 @@ header p {
 }
 
 .footer-col img {
-  width: 120px;
+  width: 90px;
   margin-bottom: 20px;
-  margin-left: 20px;
+  margin-left: 10px;
 }
 
 .footer-col h4 {

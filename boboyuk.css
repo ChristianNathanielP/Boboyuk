@@ -201,7 +201,7 @@ nav {
     display: flex;
     justify-content: center;
     gap: 10px;
-    margin: 30px 20px;
+    margin: 30px 20px 50px;
 }
 .container {
     position: relative;
@@ -272,6 +272,16 @@ nav {
   .container:hover .button {
     opacity: 1;
   }
+
+
+  .promo{
+    text-align: center;
+    margin-top: 30px;
+
+  }
+  .promo p {
+    margin-top: -10px ;
+  }
   
   .carousel {
     width: 700px;
@@ -329,17 +339,7 @@ nav {
     margin-bottom: 30px;
   }
 
-  .footer-col h4::before{
-    content: '';
-    position: absolute;
-    /* left: 0; */
-    bottom: -310px;
-    height: 2px;
-    background-color: #72AFC1;
-    height: 2px;
-    box-sizing: border-box;
-    width: 50px;
-  }
+  
 
   .footer-col ul li:not(:last-child){
     margin-bottom: 10px;
