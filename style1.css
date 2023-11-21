@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&family=Zilla+Slab:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0 ;
+    padding: 0;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url(image/fabric_1.webp);
+    background-position: center;
+    box-sizing: border-box;
+}
+
+.form {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 600px;
+    background: #FFF;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+}
+.hero {
+    text-align: center;
+}
+
+.form-2 {
+    width: 600px;
+}
+
+.title {
+    text-align: center;
+    color: #16446A;
+}
+.title-1 {
+    display: block;
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.title-2 {
+    font-size: 10px;
+    letter-spacing: 0.5px;
+}
+
+.form-group {
+    display: flex;
+    width: 100%;
+    gap: 6px;
+}
+
+.form label {
+    position: relative;
+}
+.form label input {
+    width: 100%;
+    padding: 10px 10px 20px 10px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    color: #FFFF;
+    background-color: #72afc181;
+}
+
+.form label input+span {
+    position: absolute;
+    left: 10px;
+    top: 15px;
+    color: #16446A;
+    font-weight: 400;
+    font-size: 0.8em;
+    cursor: text;
+    transition: 0.3s ease;
+}
+.form label input:placeholder-shown+span {
+    top: 15px;
+    font-size: 0.9em;
+}
+
+.form label input:focus+span,
+.form label input:valid+span {
+    top: 35px;
+    font-size: 0.6em;
+    font-weight: 600;
+    color: #16446A;
+}
+
+.form label input:valid+span {
+    color: #0A082D;
+}
+
+
+.forgot a {
+    color: #16446A;
+    font-size: 0.7rem;
+    margin-left: 3px;
+    text-decoration: none;
+}
+.forgot a:hover {
+    color: #FF7F50;
+    text-decoration: underline;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    text-align: center;
+    align-items: center;
+}
+
+.button_top {
+    margin-top: 1rem;
+    display: block;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 0.75em;
+    padding: 0.75em 1.5em;
+    background: #16446A;
+    color: #fff;
+    transform: translateY(-0.2em);
+    transition: transform 0.1s ease;
+}
+button:hover .button_top {
+    /* Pull the button upwards when hovered */
+    transform: translateY(-0.33em);
+    background-color: #FF7F50 ;
+}
+
+button:active .button_top {
+    /* Push the button downwards when pressed */
+    transform: translateY(0);
+}
+
+.signin {
+    color: #16446A;
+    font-size: 0.8rem;
+    text-align: center;
+}
+.signin a {
+    color: #0A082D;
+    text-decoration: none;
+}
+
+.signin a:hover {
+    color: #FF7F50;
+    text-decoration: underline;
+}
