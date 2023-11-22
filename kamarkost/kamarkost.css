@@ -22,6 +22,10 @@ header p {
   font-weight: 700;
   letter-spacing: 2px;
 }
+header a{
+  text-decoration: none;
+  color: #16446A;
+}
 
 
 .container-main {
@@ -33,14 +37,14 @@ header p {
   width: 800px;
   height: 500px;
   border-radius: 10px;
-  border: 2px solid #0A082D;
+  border: 2px solid #16446A;
   margin-right: 50px;
 }
 .lokasi {
-  margin: 10px 0;
+  margin: 10px 0 30px;
 }
 .lokasi i {
-  color: #72AFC1;
+  color: #16446A;
   font-size: 20px;
   margin-right: 10px;
 }
@@ -52,6 +56,10 @@ header p {
   font-size: 15px;
   font-weight: 400;
 }
+.lokasi a {
+  text-decoration: none;
+  color: #0A082D;
+}
 .pemesanan {
   text-decoration: none;
   text-align: center;
@@ -60,7 +68,7 @@ header p {
   background-color: #72AFC1;
   border: none;
   box-shadow: none;
-  width: 200px;
+  width: 600px;
   border-radius: 30px;
   padding: 12px 10px;
   cursor: pointer;
@@ -75,7 +83,9 @@ header p {
   text-decoration: none;
 }
 .pemesanan button:hover {
-  border: 1px dotted #16446A;
+  box-shadow: 0px 0px 5px 1px rgba(10,8,45,0.84);
+  -webkit-box-shadow: 0px 0px 5px 1px rgba(10,8,45,0.84);
+  -moz-box-shadow: 0px 0px 5px 1px rgba(10,8,45,0.84);
 }
 .pemesanan a:visited, .pemesanan button:visited {
   color: #ffff;
@@ -115,11 +125,14 @@ header p {
 .deskripsi-pemilik h3 {
   text-align: center;
 }
+
+
 .footer {
   background-color: #0A082D;
-  padding: 30px 0;
-  line-height: 1.5;
-  font-family: 'Poppins', sans-serif;
+  padding: 20px 0 10px ;
+  box-shadow: 0px -1px 10px 1px rgba(10,8,45,0.84);
+  -webkit-box-shadow: 0px -1px 10px 1px rgba(10,8,45,0.84);
+  -moz-box-shadow: 0px -1px 10px 1px rgba(10,8,45,0.84);
 }
 
 .kaki {
@@ -193,4 +206,9 @@ header p {
 .footer-col .social-links a:hover{
   color: #24262b;
   background-color: #ffffff;
+}
+.copyright {
+  text-align: center;
+  color: #fff;
+  font-size: 10px;
 }
