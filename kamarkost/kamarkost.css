@@ -7,38 +7,45 @@
 
 body {
   font-family: 'Poppins', sans-serif;
+  overflow-x: hidden;
 }
-header {
-  text-align: center;
-  background-color: #ffffff5e;
-  color: #16446A;
-  padding: 10px 0;
+nav {
+  font-weight: 600;
+  font-size: 20px;
+  box-shadow: -1px 7px 18px -3px rgba(10,8,45,0.84);
+  -webkit-box-shadow: -1px 7px 18px -3px rgba(10,8,45,0.84);
+  -moz-box-shadow: -1px 7px 18px -3px rgba(10,8,45,0.84);
+  margin-bottom: 50px;
 }
-header img {
-  width: 80px;
+.nav-item {
+  display: flex;
+  align-items: center;
 }
-header p {
-  font-size: 28px;
-  font-weight: 700;
-  letter-spacing: 2px;
+.nav-item img {
+  width: 100px;
+  height: 100px;
 }
-header a{
-  text-decoration: none;
-  color: #16446A;
+.nav-item a{
+  transition: 0.3s ease;
+}
+.nav-item a:hover {
+  color: #72AFC1;
 }
 
 
 .container-main {
   display: flex;
   flex-wrap: nowrap;
-  margin: 20px 10px 50px;
+  justify-content: center; 
+  margin: 20px 25px 50px;
+  gap: 60px;
 }
+
 .kiri img {
   width: 800px;
   height: 500px;
   border-radius: 10px;
   border: 2px solid #16446A;
-  margin-right: 50px;
 }
 .lokasi {
   margin: 10px 0 30px;
@@ -63,6 +70,10 @@ header a{
 .pemesanan {
   text-decoration: none;
   text-align: center;
+}
+.price h3 {
+  margin-bottom: 20px;
+  font-weight: 700;
 }
 .pemesanan button {
   background-color: #72AFC1;
@@ -91,17 +102,19 @@ header a{
   color: #ffff;
 }
 
-.kanan {
-  max-height: fit-content;
-}
 .kanan h1 {
   font-weight: 700;
   margin-bottom: 20px;
 }
 .deskripsi {
   display: flex;
-  gap: 300px;
-  margin-left: 10px;
+  justify-content: space-between;
+  margin: 15px;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: -2px 3px 20px -3px rgba(0,0,0,0.59);
+  -webkit-box-shadow: -2px 3px 20px -3px rgba(0,0,0,0.59);
+  -moz-box-shadow: -2px 3px 20px -3px rgba(0,0,0,0.59);
 }
 .deskripsi h3, .deskripsi-pemilik h3 {
   font-weight: 500;
@@ -115,7 +128,7 @@ header a{
 }
 
 .deskripsi-pemilik {
-  margin: 15px 12px 0 0;
+  margin: 15px;
   padding: 10px;
   border-radius: 15px;
   box-shadow: -2px 3px 20px -3px rgba(0,0,0,0.59);
@@ -141,8 +154,8 @@ header a{
 }
 
 .row {
-  display: flex;
-  flex-wrap: wrap;
+  display: flex ;
+  width: 100%;
 }
 
 .footer-col ul{

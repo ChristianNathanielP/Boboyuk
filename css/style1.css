@@ -10,7 +10,7 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background-image: url(image/fabric_1.webp);
+    background-image: url(../image/fabric_1.webp);
     background-position: center;
     box-sizing: border-box;
 }
