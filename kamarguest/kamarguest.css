@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&family=Zilla+Slab:wght@300;400;500;600;700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  overflow-x: hidden;
+}
+nav {
+  font-weight: 600;
+  font-size: 20px;
+  box-shadow: -1px 7px 18px -3px rgba(10,8,45,0.84);
+  -webkit-box-shadow: -1px 7px 18px -3px rgba(10,8,45,0.84);
+  -moz-box-shadow: -1px 7px 18px -3px rgba(10,8,45,0.84);
+  margin-bottom: 50px;
+}
+.nav-item {
+  display: flex;
+  align-items: center;
+}
+.nav-item img {
+  width: 100px;
+  height: 100px;
+}
+.nav-item a{
+  transition: 0.3s ease;
+}
+.nav-item a:hover {
+  color: #72AFC1;
+}
+
+
+.container-main {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center; 
+  margin: 20px 25px 50px;
+  gap: 60px;
+}
+
+.kiri img {
+  width: 800px;
+  height: 500px;
+  border-radius: 10px;
+  border: 2px solid #16446A;
+}
+.lokasi {
+  margin: 10px 0 30px;
+}
+.lokasi i {
+  color: #16446A;
+  font-size: 20px;
+  margin-right: 10px;
+}
+.lokasi span {
+  font-size: 20px;
+  font-weight: 500;
+}
+.lokasi p {
+  font-size: 15px;
+  font-weight: 400;
+}
+.lokasi a {
+  text-decoration: none;
+  color: #0A082D;
+}
+.pemesanan {
+  text-decoration: none;
+  text-align: center;
+}
+.price h3 {
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+.pemesanan button {
+  background-color: #72AFC1;
+  border: none;
+  box-shadow: none;
+  width: 600px;
+  border-radius: 30px;
+  padding: 12px 10px;
+  cursor: pointer;
+  color: #ffff;
+  font-weight: 600;
+  letter-spacing: 1px;
+  transition: 0.3s ;
+  font-size: 20px;
+
+}
+.pemesanan a {
+  text-decoration: none;
+}
+.pemesanan button:hover {
+  box-shadow: 0px 0px 5px 1px rgba(10,8,45,0.84);
+  -webkit-box-shadow: 0px 0px 5px 1px rgba(10,8,45,0.84);
+  -moz-box-shadow: 0px 0px 5px 1px rgba(10,8,45,0.84);
+}
+.pemesanan a:visited, .pemesanan button:visited {
+  color: #ffff;
+}
+
+.kanan h1 {
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.deskripsi {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: -2px 3px 20px -3px rgba(0,0,0,0.59);
+  -webkit-box-shadow: -2px 3px 20px -3px rgba(0,0,0,0.59);
+  -moz-box-shadow: -2px 3px 20px -3px rgba(0,0,0,0.59);
+}
+.deskripsi h3, .deskripsi-pemilik h3 {
+  font-weight: 500;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.fasilitas li, .spesifikasi li{
+  margin-bottom: 15px;
+  font-size: 15px;
+}
+
+.deskripsi-pemilik {
+  margin: 15px;
+  padding: 10px;
+  border-radius: 15px;
+  box-shadow: -2px 3px 20px -3px rgba(0,0,0,0.59);
+  -webkit-box-shadow: -2px 3px 20px -3px rgba(0,0,0,0.59);
+  -moz-box-shadow: -2px 3px 20px -3px rgba(0,0,0,0.59);
+}
+.deskripsi-pemilik h3 {
+  text-align: center;
+}
+
+
+.footer {
+  background-color: #0A082D;
+  padding: 20px 0 10px ;
+  box-shadow: 0px -1px 10px 1px rgba(10,8,45,0.84);
+  -webkit-box-shadow: 0px -1px 10px 1px rgba(10,8,45,0.84);
+  -moz-box-shadow: 0px -1px 10px 1px rgba(10,8,45,0.84);
+}
+
+.kaki {
+  max-width: 1170px;
+  margin: auto;
+}
+
+.row {
+  display: flex ;
+  width: 100%;
+}
+
+.footer-col ul{
+  list-style: none;
+  
+}
+.footer-col {
+  width: 25%;
+  padding: 0 15px;
+}
+.footer-col ul li {
+  font-size: 15px;
+}
+
+.footer-col img {
+  width: 90px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+
+.footer-col h4 {
+  font-size: 18px;
+  color: #fff;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+}
+
+.footer-col ul li:not(:last-child){
+  margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 200;
+  color: #bbbbbb;
+  display: block;
+  transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover {
+  color: #ffffff;
+  padding-left: 8px;
+}
+
+.footer-col .social-links a{
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin: 0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: #ffffff;
+  transition: all 0.5s ease;
+}
+
+.footer-col .social-links a:hover{
+  color: #24262b;
+  background-color: #ffffff;
+}
+.copyright {
+  text-align: center;
+  color: #fff;
+  font-size: 10px;
+}
