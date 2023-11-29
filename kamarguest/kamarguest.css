@@ -225,3 +225,40 @@ nav {
   color: #fff;
   font-size: 10px;
 }
+
+@media screen and (max-width: 992px) {
+
+  .container-main {
+    flex-wrap: wrap;
+    
+  }
+  .kiri {
+    width: 100%;
+  }
+  .kiri img {
+    width: 100%;
+  }
+
+} 
+@media screen and (max-width: 376px) {
+  .kiri {
+    width: 100%;
+  }
+  .kiri img {
+    width: 100%;
+    height: 280px;
+  }
+  .pemesanan button{
+    width: 100%;
+  }
+  .footer-col {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .footer-col img {
+    margin: 0 auto 10px;
+  }
+
+} 
