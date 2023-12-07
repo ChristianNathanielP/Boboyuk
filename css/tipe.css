@@ -139,9 +139,15 @@ nav {
     width: 100%;
   }
   
-  @media(min-width: 540px){
+    @media(min-width: 540px){
     .card-grid{
       grid-template-columns: repeat(2, 1fr); 
+    }
+  }
+  
+  @media(min-width: 960px){
+    .card-grid{
+      grid-template-columns: repeat(4, 1fr); 
     }
   }
   
@@ -322,17 +328,21 @@ nav {
     .card__fitur {
       margin-top: 10px;
       font-size: 10px;
-      /* word-spacing: 200vw; */
     }
   
     .card__price {
       margin-top: 15px;
       font-size: 10px;
     }
+
+    .row {
+      width: 100%;
+    }
     .footer-col {
       width: 100%;
       text-align: center;
       margin-bottom: 20px;
+      padding: 0;
     }
   
     .footer-col img {
