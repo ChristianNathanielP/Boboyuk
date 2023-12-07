@@ -291,11 +291,15 @@ nav {
   }
 
   .footer-col img {
-    width: 60px !important;
+    width: 90px !important;
     margin: 0 auto 10px;
   }
+  .footer-col h4 {
+    font-size: 15px;
+    margin-bottom: 15px;
+  }
   .footer-col ul li a {
-    font-size: 12px;
+    font-size: 13px;
     text-align: start;
   }
 
