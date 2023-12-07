@@ -8,7 +8,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     scroll-behavior: smooth;
-    background: url(fabric_1.webp);
+    background: url(../image/fabric_1.webp);
 }
 
 /* Navbar */
@@ -222,6 +222,7 @@ nav {
     color: #fff;
     font-size: 10px;
   }
+
 
   @media screen and (max-width: 376px) {
     .footer-col {

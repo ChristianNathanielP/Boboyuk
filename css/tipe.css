@@ -8,7 +8,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     scroll-behavior: smooth;
-    background: url(fabric_1.webp);
+    background: url(../image/fabric_1.webp);
 }
 
 
@@ -70,6 +70,7 @@ nav {
     display: flex;
     height: auto;
     gap: 0.5rem;
+    background-color: transparent;
 }
 
 .card-body {
@@ -141,12 +142,6 @@ nav {
   @media(min-width: 540px){
     .card-grid{
       grid-template-columns: repeat(2, 1fr); 
-    }
-  }
-  
-  @media(min-width: 960px){
-    .card-grid{
-      grid-template-columns: repeat(4, 1fr); 
     }
   }
   
@@ -313,6 +308,27 @@ nav {
   }
 
   @media screen and (max-width: 376px) {
+    .card-grid{
+      grid-template-columns: repeat(2, 1fr); 
+    }
+    .card__category{
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+    .card__heading{
+      font-size: 15px;
+    }
+  
+    .card__fitur {
+      margin-top: 10px;
+      font-size: 10px;
+      /* word-spacing: 200vw; */
+    }
+  
+    .card__price {
+      margin-top: 15px;
+      font-size: 10px;
+    }
     .footer-col {
       width: 100%;
       text-align: center;
