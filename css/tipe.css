@@ -314,6 +314,9 @@ nav {
   }
 
   @media screen and (max-width: 376px) {
+    .hero-section {
+      margin-top: -40px;
+    }
     .card-grid{
       grid-template-columns: repeat(2, 1fr); 
     }
@@ -335,18 +338,23 @@ nav {
       font-size: 10px;
     }
 
-    .row {
-      width: 100%;
-    }
     .footer-col {
       width: 100%;
       text-align: center;
       margin-bottom: 20px;
-      padding: 0;
     }
   
     .footer-col img {
+      width: 90px !important;
       margin: 0 auto 10px;
+    }
+    .footer-col h4 {
+      font-size: 15px;
+      margin-bottom: 15px;
+    }
+    .footer-col ul li a {
+      font-size: 13px;
+      text-align: start;
     }
   
   } 
