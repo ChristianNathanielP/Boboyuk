@@ -241,10 +241,18 @@ nav {
 
 
   @media screen and (max-width: 376px) {
+    * {
+      overflow-x: hidden;
+    }
+    .row {
+      width: 100%;
+    }
+
     .footer-col {
       width: 100%;
       text-align: center;
       margin-bottom: 20px;
+      padding: 0;
     }
   
     .footer-col img {
