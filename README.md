@@ -13,9 +13,9 @@ Website boboyuk
 ![Screenshot 2023-12-11 203010](https://github.com/ChristianNathanielP/Boboyuk/assets/114709222/8fcc7d8b-eade-480f-894b-a27c29443e4a)
 
 ## Tampilan Handphone
-![image](https://github.com/ChristianNathanielP/Boboyuk/assets/114709222/86ef369b-1c2e-45b2-9fdb-2cac2fa68361)
-![image](https://github.com/ChristianNathanielP/Boboyuk/assets/114709222/b3d093d3-4394-455a-8fc6-5fdac53f7f0f)
-![image](https://github.com/ChristianNathanielP/Boboyuk/assets/114709222/6289de50-31c4-4bcc-8f45-8fa70792a0e7)
-![image](https://github.com/ChristianNathanielP/Boboyuk/assets/114709222/04044dae-7f1b-4077-93da-4d0ad2e3b999)
-![image](https://github.com/ChristianNathanielP/Boboyuk/assets/114709222/1043d259-240c-4953-bcec-412a30085f37)
 ![image](https://github.com/ChristianNathanielP/Boboyuk/assets/114709222/5f1e658b-b2ac-44db-8c1e-53cf5644f7fe)
+![image](https://github.com/ChristianNathanielP/Boboyuk/assets/114709222/1043d259-240c-4953-bcec-412a30085f37)
+![image](https://github.com/ChristianNathanielP/Boboyuk/assets/114709222/04044dae-7f1b-4077-93da-4d0ad2e3b999)
+![image](https://github.com/ChristianNathanielP/Boboyuk/assets/114709222/6289de50-31c4-4bcc-8f45-8fa70792a0e7)
+![image](https://github.com/ChristianNathanielP/Boboyuk/assets/114709222/b3d093d3-4394-455a-8fc6-5fdac53f7f0f)
+![image](https://github.com/ChristianNathanielP/Boboyuk/assets/114709222/86ef369b-1c2e-45b2-9fdb-2cac2fa68361)
