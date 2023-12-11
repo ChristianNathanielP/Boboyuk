@@ -1,8 +1,8 @@
 # Boboyuk
 Website boboyuk
-##https://christiannathanielp.github.io/Boboyuk/
+## https://christiannathanielp.github.io/Boboyuk/
 
-##Tampilan Dekstop
+## Tampilan Dekstop
 ![Screenshot 2023-12-11 202828](https://github.com/ChristianNathanielP/Boboyuk/assets/114709222/72f2c770-fd0a-4900-a138-86b43cc98f56)
 ![Screenshot 2023-12-11 202903](https://github.com/ChristianNathanielP/Boboyuk/assets/114709222/a8a3780a-2340-4d3d-97df-5c9ebd340dca)
 ![Screenshot 2023-12-11 202912](https://github.com/ChristianNathanielP/Boboyuk/assets/114709222/e1d58e15-50b5-495c-8f4a-b5eb0d474465)
@@ -12,7 +12,7 @@ Website boboyuk
 ![Screenshot 2023-12-11 203003](https://github.com/ChristianNathanielP/Boboyuk/assets/114709222/c397e683-9947-40d2-9b88-9a989f25c80e)
 ![Screenshot 2023-12-11 203010](https://github.com/ChristianNathanielP/Boboyuk/assets/114709222/8fcc7d8b-eade-480f-894b-a27c29443e4a)
 
-##Tampilan Handphone
+## Tampilan Handphone
 ![image](https://github.com/ChristianNathanielP/Boboyuk/assets/114709222/86ef369b-1c2e-45b2-9fdb-2cac2fa68361)
 ![image](https://github.com/ChristianNathanielP/Boboyuk/assets/114709222/b3d093d3-4394-455a-8fc6-5fdac53f7f0f)
 ![image](https://github.com/ChristianNathanielP/Boboyuk/assets/114709222/6289de50-31c4-4bcc-8f45-8fa70792a0e7)
