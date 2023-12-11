@@ -65,7 +65,7 @@ nav {
     background: rgba(0, 0, 0, .3);
   }
   
- .container img {
+  .container img {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -114,6 +114,46 @@ nav {
     opacity: 1;
   }
 
+  /* codepan close */
+  .carousel {
+    display: none;
+  }
+  /* carousel */
+
+  @media screen and (max-width: 992px) {
+  .wrapper-codepan {
+    display: none;
+  }
+
+  .carousel {
+    display: flex;
+    margin: 30px auto;
+    width: 90%;
+  }
+  .carousel-item {
+    width: 100%;
+  }
+  .carousel-item img {
+    height: 400px;
+    border-radius: 10px;
+  }
+  .carousel-item h5 {
+    font-weight: 700;
+    font-size: 30px;
+    text-shadow: 2px 3px 3px rgba(0,0,0,0.44);
+  }
+  .carousel-item:hover img {
+    filter: brightness(70%);
+    transition: filter 0.3s ease-in-out;
+  }
+  .carousel-item:hover  h5 {
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out;
+  }
+}
+    
+  /*  */
+
   #sk {
     padding: 1px;
   }
@@ -136,6 +176,7 @@ nav {
 
   .sdank {
     width: 80%;
+    margin-top: 100px;
   }
   .tulisan h4 {
     text-align: center;
@@ -238,6 +279,7 @@ nav {
     color: #fff;
     font-size: 10px;
   }
+  
 
 
   @media screen and (max-width: 376px) {
@@ -246,6 +288,10 @@ nav {
     }
     .row {
       width: 100%;
+    }
+
+    .carousel-item img {
+      height: 300px;
     }
 
     .footer-col {
